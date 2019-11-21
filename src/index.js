@@ -1,6 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
+import './config/ReactotronConfig';
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -15,14 +17,12 @@ const styles = StyleSheet.create({
   },
 });
 
-export default function App(){
-    return (
-      <>
-        <View style={styles.container}>
-          <Text style={styles.welcome}>welcome to react native</Text>
-        </View>
-      </>
-    );
+export default function App() {
+  return (
+    <>
+      <View style={styles.container}>
+        <Text style={styles.welcome}>welcome to react native</Text>
+      </View>
+    </>
+  );
 }
-
-

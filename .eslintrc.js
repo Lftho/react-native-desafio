@@ -10,8 +10,9 @@ module.exports = {
   globals: {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly',
+    __DEV__: 'readonly',
   },
-  parser: 'babel-eslint'
+  parser: 'babel-eslint',
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -32,4 +33,5 @@ module.exports = {
       }
     ],
     'import/prefer-default-export': 'off'
+  }
 };
